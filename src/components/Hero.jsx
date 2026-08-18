@@ -96,7 +96,7 @@ export default function Hero() {
 
         <div className="hero-photo-wrap">
           <img
-            src="/public/sasank.jpeg"
+            src={`${import.meta.env.BASE_URL}sasank.jpeg`}
             alt="Sasank Bavirisetti"
             className="hero-photo"
           />
