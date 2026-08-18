@@ -54,7 +54,7 @@ export default function Hero() {
     <section id="hero">
       <div className="hero-grid">
         <div className="hero-content">
-          <div className="hero-tag">Available for opportunities</div>
+          <div className="hero-tag">Available for <strong style={{color:"white"}}>IMMEDIATE</strong> joining</div>
           <h1>Sasank Bavirisetti</h1>
           <div className="hero-role">
             Frontend-heavy <span>Software Engineer</span>
@@ -96,7 +96,7 @@ export default function Hero() {
 
         <div className="hero-photo-wrap">
           <img
-            src={`${import.meta.env.BASE_URL}sasank.jpeg`}
+            src={`${import.meta.env.BASE_URL}sasank_hero.png`}
             alt="Sasank Bavirisetti"
             className="hero-photo"
           />
